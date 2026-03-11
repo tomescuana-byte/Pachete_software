@@ -72,7 +72,7 @@ df = pd.read_csv(fisier)
 # curățare nume coloane
 df.columns = df.columns.str.strip()
 
-# păstrăm doar coloanele utile
+#  coloanele
 coloane_pastrate = [
     "Product_Name",
     "Brand",
